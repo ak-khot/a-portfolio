@@ -4,7 +4,7 @@ import AOS from 'aos'; // Import AOS library
 import 'aos/dist/aos.css'; // Import AOS styles
 const Animation = () => {
     useEffect(() => {
-        AOS.init({ duration: 5000  });
+        AOS.init({ duration: 1000  });
       }, []);
   return (
     <div></div>

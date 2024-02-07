@@ -34,7 +34,7 @@ function Contact() {
  
   const sendEmail = (e) => {
     e.preventDefault();
-
+    clearFormData();
     emailjs.sendForm('service_cis5zko', 'template_4s7eizf', form.current, 'n3NYo6SbLq8pifgnE')
       .then((result) => {
           console.log(result.text);
@@ -55,7 +55,7 @@ function Contact() {
       console.log('Form has validation errors');
     } else {
       // Perform form submission logic
-      console.log('Form submitted:', forlgata);
+      setErrors('Form submitted:', forlgata);
     }
   };
 

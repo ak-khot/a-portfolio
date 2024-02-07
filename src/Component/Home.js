@@ -8,16 +8,16 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const Home = () => {
   useEffect(() => {
-    AOS.init({ duration: 3000,delay: 1000 });
+    AOS.init({ duration: 1000});
   }, []);
   return (
       <div id="homeSection">
           <div className="  lg:flex mt-10">
           <div className="  text-white  lg:mx-48 lg:mt-48 text-center lg:text-start space-y-4">
-              <h1 className=' lg:text-3xl text-xl' data-aos="fade-down" data-aos-duration="3000">Hello</h1>
+              <h1 className=' lg:text-3xl text-xl' data-aos="fade-down" >Hello</h1>
               <h1 className=' lg:text-5xl font-bold text-3xl'  data-aos="zoom-in">I am Akshay</h1>
               <h1 className=' lg:text-5xl font-bold text-3xl'  data-aos="zoom-in">Frontend Devloper</h1>
-              <p className=' lg:w-[450px] lg:mx-1 mx-4'  data-aos="fade-up" data-aos-duration="3000"> I am a skilled and passionate web devloper with experience in creating visully appealing and user-friendly websites. </p>
+              <p className=' lg:w-[450px] lg:mx-1 mx-4'  data-aos="fade-up" > I am a skilled and passionate web devloper with experience in creating visully appealing and user-friendly websites. </p>
               <div className=" mt-5   space-x-3   flex lg:space-x-5 text-center mx-32 lg:mx-0">
             <a href=" https://www.instagram.com/_akshay_khot497?igsh=OGQ5ZDc2ODk2ZA==">
             <div data-aos="zoom-out" className="  bg-[#020225] hover:bg-[#EB972A] border p-4 h-14 rounded-full w-14 flex justify-center  ">
